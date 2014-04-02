@@ -1,16 +1,16 @@
 {
-  "name": "format-price",
-  "version": "0.0.1",
-  "description": "Parse and format things that could be prices",
-  "main": "index.js",
-  "scripts": {
-    "test": "./node_modules/mocha/bin/mocha test/index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:mvhenten/format-price.git"
-  },
-  "keywords": [
+    "name": "format-price",
+    "version": "0.0.1",
+    "description": "Parse and format things that could be prices",
+    "main": "index.js",
+    "scripts": {
+        "test": "./node_modules/mocha/bin/mocha -u tdd -R spec test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:mvhenten/format-price.git"
+    },
+    "keywords": [
     "price",
     "currency",
     "format",
@@ -22,10 +22,18 @@
     "money",
     "euro"
   ],
-  "author": "Matthijs van Henten <matthijs@technischepartij.nl>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mvhenten/format-price/issues"
-  },
-  "homepage": "https://github.com/mvhenten/format-price"
+    "author": "Matthijs van Henten <matthijs@technischepartij.nl>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mvhenten/format-price/issues"
+    },
+    "homepage": "https://github.com/mvhenten/format-price",
+    "devDependencies": {
+        "mocha": "~1.18.2",
+        "js-beautify": "~1.4.2",
+        "jshint": "~2.5.0"
+    },
+    "dependencies": {
+        "intl": "~0.1.2"
+    }
 }
