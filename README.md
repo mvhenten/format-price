@@ -1,8 +1,9 @@
 format-price
 ============
 
-Simple utility to deal with formatting and parsing price.
+[![Build Status](https://drone.io/github.com/mvhenten/format-price/status.png)](https://drone.io/github.com/mvhenten/format-price/latest)
 
+Simple utility to deal with formatting and parsing price.
 When asking a user to input a price, you should expect just about anything:
 
     US$ 3.900,90-
@@ -15,6 +16,10 @@ When asking a user to input a price, you should expect just about anything:
     $1,-
 
 So unless we restrict the user, we have to deal with this.
+
+## install
+
+    npm install format-price
 
 ## usage
 
