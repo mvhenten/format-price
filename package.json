@@ -1,0 +1,31 @@
+{
+  "name": "format-price",
+  "version": "0.0.1",
+  "description": "Parse and format things that could be prices",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mvhenten/format-price.git"
+  },
+  "keywords": [
+    "price",
+    "currency",
+    "format",
+    "parse",
+    "locale",
+    "internationalization",
+    "globalization",
+    "localization",
+    "money",
+    "euro"
+  ],
+  "author": "Matthijs van Henten <matthijs@technischepartij.nl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mvhenten/format-price/issues"
+  },
+  "homepage": "https://github.com/mvhenten/format-price"
+}
