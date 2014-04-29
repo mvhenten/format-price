@@ -31,8 +31,14 @@ var Price = {
 
         if (!parts || !parts.length) return NaN;
 
-        integer = parts.slice(0, -1).join('');
-        fraction = parts.slice(-1);
+        if (parts.length == 1) {
+            integer = parts[0];
+        } else {
+            integer = parts.slice(0, -1).join('');
+            fraction = parts.slice(-1);
+        }
+
+
 
         // find a sign
         sign = /-/.test(str) ? '-' : '';
